@@ -1,0 +1,142 @@
+{
+    "__class__": "ColeccionAparatos",
+    "aparatos": [
+        {
+            "__class__": "Heladera",
+            "__atributos__": {
+                "marca": "Samsung",
+                "modelo": "RT32K5070",
+                "color": "Gris",
+                "paisFabricacion": "China",
+                "precioBase": 126000.0,
+                "litros": 321,
+                "freezer": true,
+                "ciclica": true
+            }
+        },
+        {
+            "__class__": "Lavarropas",
+            "__atributos__": {
+                "marca": "Philco",
+                "modelo": "PHLS100P inverter",
+                "color": "Plateado",
+                "paisFabricacion": "Argentina",
+                "precioBase": 125500.0,
+                "capacidad": 10,
+                "velCentrifugado": 1200,
+                "cantProgramas": 10,
+                "tipoCarga": "Frontal"
+            }
+        },
+        {
+            "__class__": "Lavarropas",
+            "__atributos__": {
+                "marca": "Enova",
+                "modelo": "ATH-EWM",
+                "color": "Gris",
+                "paisFabricacion": "Chile",
+                "precioBase": 50000,
+                "capacidad": 5,
+                "velCentrifugado": 1200,
+                "cantProgramas": 10,
+                "tipoCarga": "Frontal"
+            }
+        },
+        {
+            "__class__": "Televisor",
+            "__atributos__": {
+                "marca": "TCL",
+                "modelo": "S6500",
+                "color": "Gris",
+                "paisFabricacion": "Alemania",
+                "precioBase": 55000,
+                "tipoPantalla": "lcd",
+                "pulgadas": 42,
+                "tipoDefinicion": "HD",
+                "conexionInternet": false
+            }
+        },
+        {
+            "__class__": "Televisor",
+            "__atributos__": {
+                "marca": "Samsung",
+                "modelo": "Series 7",
+                "color": "Negro",
+                "paisFabricacion": "China",
+                "precioBase": 153000.0,
+                "tipoPantalla": "led",
+                "pulgadas": 65.0,
+                "tipoDefinicion": "FULL HD",
+                "conexionInternet": true
+            }
+        },
+        {
+            "__class__": "Heladera",
+            "__atributos__": {
+                "marca": "Bambi",
+                "modelo": "2F1200",
+                "color": "Blanco",
+                "paisFabricacion": "Brasil",
+                "precioBase": 80000,
+                "litros": 328,
+                "freezer": false,
+                "ciclica": true
+            }
+        },
+        {
+            "__class__": "Lavarropas",
+            "__atributos__": {
+                "marca": "Columbia",
+                "modelo": "LSC10000",
+                "color": "Blanco",
+                "paisFabricacion": "EE.UU.",
+                "precioBase": 21000,
+                "capacidad": 10,
+                "velCentrifugado": 600,
+                "cantProgramas": 5,
+                "tipoCarga": "Superior"
+            }
+        },
+        {
+            "__class__": "Televisor",
+            "__atributos__": {
+                "marca": "Samsung",
+                "modelo": "Series 7",
+                "color": "Negro",
+                "paisFabricacion": "Argentina",
+                "precioBase": 100000,
+                "tipoPantalla": "led",
+                "pulgadas": 55,
+                "tipoDefinicion": "FULL HD",
+                "conexionInternet": true
+            }
+        },
+        {
+            "__class__": "Heladera",
+            "__atributos__": {
+                "marca": "Patrick",
+                "modelo": "Inverter no frost",
+                "color": "Gris",
+                "paisFabricacion": "China",
+                "precioBase": 340000,
+                "litros": 459,
+                "freezer": true,
+                "ciclica": false
+            }
+        },
+        {
+            "__class__": "Televisor",
+            "__atributos__": {
+                "marca": "Philips",
+                "modelo": "6800 Series",
+                "color": "Negro",
+                "paisFabricacion": "Reino Unido",
+                "precioBase": 55000.0,
+                "tipoPantalla": "led",
+                "pulgadas": 55000.0,
+                "tipoDefinicion": "FULL HD",
+                "conexionInternet": true
+            }
+        }
+    ]
+}
