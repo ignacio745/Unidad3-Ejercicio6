@@ -11,13 +11,11 @@ from zope.interface import implementer
 class ColeccionAparatos:
     __comienzo = None
     __actual = None
-    __indice = 0
     __tope = 0
 
     def __init__(self) -> None:
         self.__comienzo = None
         self.__actual = self.__comienzo
-        self.__indice = 0
         self.__tope = 0
 
     
@@ -93,15 +91,10 @@ class ColeccionAparatos:
     
 
     def __next__(self) -> Aparato:
-        """if self.__indice == self.__tope:
-            self.__actual = self.__comienzo
-            self.__indice = 0
-            raise StopIteration"""
         if self.__actual == None:
             self.__actual = self.__comienzo
             raise StopIteration
         else:
-            self.__indice += 1
             unAparato = self.__actual.getAparato()
             self.__actual = self.__actual.getSiguiente()
             return unAparato

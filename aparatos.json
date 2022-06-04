@@ -43,19 +43,6 @@
             }
         },
         {
-            "__class__": "Heladera",
-            "__atributos__": {
-                "marca": "Philco",
-                "modelo": "Freeze",
-                "color": "Plateado",
-                "paisFabricacion": "Argentina",
-                "precioBase": 50000.0,
-                "litros": 450,
-                "freezer": true,
-                "ciclica": true
-            }
-        },
-        {
             "__class__": "Lavarropas",
             "__atributos__": {
                 "marca": "Columbia",
